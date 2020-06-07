@@ -11,7 +11,7 @@ require "pry"
   
   def match(array)
     #binding.pry
-      array.collect do |array_word|
+      array.col do |array_word|
       (@word.split("").sort) == (array_word.split("").sort)
     end
   end  
