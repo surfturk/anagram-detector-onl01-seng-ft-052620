@@ -13,7 +13,7 @@ require "pry"
     #binding.pry
       array.each do |array_word|
       (@word.split.("").sort) == (array_word.split("").sort)
-    
+    end
   end  
   
   
