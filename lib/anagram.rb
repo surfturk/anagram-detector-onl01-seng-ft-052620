@@ -7,8 +7,8 @@ class Anagram
     
   end  
   
-  def self.match(word)
-    
+  def self.match(array)
+    word.split
   end  
   
   
