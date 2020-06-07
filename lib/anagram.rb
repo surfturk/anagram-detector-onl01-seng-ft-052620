@@ -10,8 +10,8 @@ class Anagram
   end  
   
   def self.match(array)
-    binding.pry
     array.each do |word|
+      binding.pry
       word.split("")
     end  
   end  
