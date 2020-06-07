@@ -12,7 +12,7 @@ require "pry"
   def match(array)
     #binding.pry
       (@word.split.("").sort) == (array_word.split("").sort)
-    end  
+    
   end  
   
   
