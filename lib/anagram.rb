@@ -1,6 +1,6 @@
 require "pry"
 
-class Anagram
+ class Anagram
   attr_accessor :word
   
   
